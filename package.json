@@ -1,0 +1,16 @@
+{
+  "name": "nodecsfle",
+  "version": "1.0.0",
+  "description": "CSFLE",
+  "main": "insert_encrypted_documents.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.1",
+    "mongodb-client-encryption": "^2.5.0"
+  }
+}
