@@ -20,8 +20,9 @@ Perform a quick update on your instance:<br />
 `nvm install 16` <br />
 
 
-**3. Pull the source code for this repo and verify that the files are present** <br />
+**3. Clone the source code for this repo and verify that the files are present** <br />
 
+`git clone https://github.com/CormacBuckleyMongoDB/FLE-Demo.git` <br />
 
 **4. Edit your .env file to add in your Atlas URI with the below command:** <br />
 
