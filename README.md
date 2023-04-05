@@ -9,8 +9,8 @@ Perform a quick update on your instance:<br />
 `sudo yum update -y` <br />
  
 #Install git in your EC2 instance <br />
-`sudo yum install git -y  <br />
-`
+`sudo yum install git -y` <br />
+
 **2. On the Strigo environment ensure that node has been installed and set to the correct version with the below commands:** <br />
 
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash` <br />
