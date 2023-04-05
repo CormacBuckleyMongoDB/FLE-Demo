@@ -3,41 +3,41 @@ Demo for running CSFLE using Atlas as part of a workshop session
 
 Steps for running this lab:
 
-1. Login to your strigo environment and install git with the below commands: 
+**1. Login to your strigo environment and install git with the below commands:** <br />
 
-#Perform a quick update on your instance:
-`sudo yum update -y`
+Perform a quick update on your instance:<br />
+`sudo yum update -y`<br />
  
-#Install git in your EC2 instance
-`sudo yum install git -y
+#Install git in your EC2 instance<br />
+`sudo yum install git -y<br />
 `
-2. On the Strigo environment ensure that node has been installed and set to the correct version with the below commands:
+**2. On the Strigo environment ensure that node has been installed and set to the correct version with the below commands:**<br />
 
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`<br />
 
-`. ~/.nvm/nvm.sh`
+`. ~/.nvm/nvm.sh`<br />
 
-`nvm install 16`
-
-
-3. Pull the source code for this repo and verify that the files are present 
+`nvm install 16`<br />
 
 
-4. Edit your .env file to add in your Atlas URI with the below command: 
+**3. Pull the source code for this repo and verify that the files are present** <br />
 
-`sudo vi .env`
 
-Press "i" on your keyboard to enter edit mode 
+**4. Edit your .env file to add in your Atlas URI with the below command:** <br />
 
-Modify your Atlas URI field 
+`sudo vi .env`<br />
 
-Press ':' and type 'x' to exit and save the VIM editor 
+Press "i" on your keyboard to enter edit mode <br />
 
-5. Run the encrypt.js file with the following command:
+Modify your Atlas URI field <br />
 
-`node encrypt.js`
+Press ':' and type 'x' to exit and save the VIM editor <br />
 
-6. Observe the output in the console to verify that the documents were successfully inserted
+**5. Run the encrypt.js file with the following command:**<br />
 
-7. Login to your cluster using compass and observe that the encrypted fields are present
+`node encrypt.js`<br />
+
+**6. Observe the output in the console to verify that the documents were successfully inserted**<br />
+
+**7. Login to your cluster using compass and observe that the encrypted fields are present**<br />
 
