@@ -13,11 +13,11 @@ Steps for running this lab:
 `
 2. On the Strigo environment ensure that node has been installed and set to the correct version with the below commands:
 
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
 
-. ~/.nvm/nvm.sh
+`. ~/.nvm/nvm.sh`
 
-nvm install 16`
+`nvm install 16`
 
 
 3. Pull the source code for this repo and verify that the files are present 
