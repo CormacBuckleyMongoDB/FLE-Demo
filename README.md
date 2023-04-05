@@ -45,6 +45,9 @@ Press ':' and type 'x' to exit and save the VIM editor <br />
 `node encrypt.js` <br />
 
 **7. Observe the output in the console to verify that the documents were successfully inserted** <br />
+![image](https://user-images.githubusercontent.com/100958794/230160625-fac6d6af-0ad6-4ba5-a925-5bce2ff70617.png)
+
 
 **8. Login to your cluster using compass and observe that the encrypted fields are present** <br />
+![image](https://user-images.githubusercontent.com/100958794/230160898-23cf008f-7418-45df-ade2-e902b018fc93.png)
 
