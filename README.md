@@ -38,7 +38,7 @@ Press "i" on your keyboard to enter edit mode <br />
 
 Modify your Atlas URI field <br />
 
-Press ':' and type 'x' to exit and save the VIM editor <br />
+Press the escape key on your keyboard, press ':' and type 'x' to exit and save the VIM editor <br />
 
 **6. Run the encrypt.js file with the following command:** <br />
 
